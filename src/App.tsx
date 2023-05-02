@@ -7,7 +7,7 @@ import calculator from '../public/images/icon-calculator.svg'
 function App() {
 
   return (
-    <div>
+    <div className='container'>
       <header>
         <h2>Reliable, efficient delivery</h2>
         <h3>Powered by Technology</h3>

@@ -29,9 +29,10 @@ body {
     text-align: center;
 }
 
-.App {
+.container {
     display: flex;
     flex-direction: column;
+    padding-bottom: 4rem;
 }
 
 header {
@@ -52,11 +53,9 @@ p {
     padding-block: 0.5rem;
 }
 
-main {
-
-}
-
 .card {
+    display: flex;
+    flex-direction: column;
     border: 0.1rem solid transparent;
     border-radius: 0.5rem;
     margin-block: 1.5rem;
@@ -84,4 +83,6 @@ main {
 
 img {
     padding-top: 2rem;
+    align-self: flex-end;
+    max-width: 20%;
 }
