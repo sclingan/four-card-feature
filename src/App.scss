@@ -1,0 +1,60 @@
+@use 'css-reset';
+
+$primary-red: hsl(0, 78%, 62%);
+$primary-cyan: hsl(180, 62%, 55%);
+$primary-orange: hsl(34, 97%, 64%);
+$primary-blue: hsl(212, 86%, 64%);
+$neutral-dark-blue: hsl(234, 12%, 34%);
+$neutral-gray-blue: hsl(229, 6%, 66% );
+$neutral-light-gray: hsl(0, 0%, 98%);
+$font-size: 0.9375rem;
+$ff: 'Poppins';
+$fw-200: 200;
+$fw-400: 400;
+$fw-600: 600;
+
+body {
+    font-family: $ff;
+    font-weight: $fw-200;
+    $font-size: $font-size;
+    padding-top: 4rem;
+    padding-inline: 2rem;
+    text-align: center;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding-bottom: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: $fw-400;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: $fw-600;
+}
+
+p {
+    padding-block: 0.5rem;
+}
+
+main {
+
+}
+
+.card {
+    border: 0.1rem solid transparent;
+    border-radius: 0.5rem;
+    margin-block: 1.5rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    text-align: left;
+    box-shadow: 0 0.2rem 1rem $neutral-gray-blue;
+}
