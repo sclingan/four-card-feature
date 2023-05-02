@@ -13,6 +13,13 @@ $fw-200: 200;
 $fw-400: 400;
 $fw-600: 600;
 
+/* 
+TODO:
+     align h2 with h3 on header
+     fix color borders, bends on the edges
+     figure out contrast on paragraphs
+*/
+
 body {
     font-family: $ff;
     font-weight: $fw-200;
@@ -57,4 +64,24 @@ main {
     padding-block: 1rem;
     text-align: left;
     box-shadow: 0 0.2rem 1rem $neutral-gray-blue;
+}
+
+.border-cyan {
+    border-top: 0.2rem solid $primary-cyan;
+}
+
+.border-red {
+    border-top: 0.2rem solid $primary-red;
+}
+
+.border-blue {
+    border-top: 0.2rem solid $primary-blue;
+}
+
+.border-orange {
+    border-top: 0.2rem solid $primary-orange;
+}
+
+img {
+    padding-top: 2rem;
 }

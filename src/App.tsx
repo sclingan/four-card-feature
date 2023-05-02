@@ -16,22 +16,22 @@ function App() {
         </p>
       </header>
       <main>
-        <div className='card'>
+        <div className='card border-cyan'>
           <h4>Supervisor</h4>
           <p>Monitors activity to identify project roadblocks</p>
           <img src={supervisor} alt=""></img>
         </div>
-        <div className='card'>
+        <div className='card border-red'>
           <h4>Team Builder</h4>
           <p>Scans our talent network to create the optimal team for your project</p>
           <img src={teambuilder} alt=""></img>
         </div>
-        <div className='card'>
+        <div className='card border-orange'>
           <h4>Karma</h4>
           <p>Regularly evaluates our talent to ensure quality</p>
           <img src={karma} alt=""></img>
         </div>
-        <div className='card'>
+        <div className='card border-blue'>
           <h4>Calculator</h4>
           <p>Uses data from past projects to provide better delivery estimates</p>
           <img src={calculator} alt=""></img>

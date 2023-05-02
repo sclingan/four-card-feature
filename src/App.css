@@ -41,6 +41,12 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+/* 
+TODO:
+     align h2 with h3 on header
+     fix color borders, bends on the edges
+     figure out contrast on paragraphs
+*/
 body {
   font-family: "Poppins";
   font-weight: 200;
@@ -80,4 +86,24 @@ p {
   padding-block: 1rem;
   text-align: left;
   box-shadow: 0 0.2rem 1rem hsl(229, 6%, 66%);
+}
+
+.border-cyan {
+  border-top: 0.2rem solid hsl(180, 62%, 55%);
+}
+
+.border-red {
+  border-top: 0.2rem solid hsl(0, 78%, 62%);
+}
+
+.border-blue {
+  border-top: 0.2rem solid hsl(212, 86%, 64%);
+}
+
+.border-orange {
+  border-top: 0.2rem solid hsl(34, 97%, 64%);
+}
+
+img {
+  padding-top: 2rem;
 }/*# sourceMappingURL=App.css.map */
