@@ -21,6 +21,7 @@ function App() {
           <p>Monitors activity to identify project roadblocks</p>
           <img src={supervisor} alt=""></img>
         </div>
+        <div>
         <div className='card border-red'>
           <h4>Team Builder</h4>
           <p>Scans our talent network to create the optimal team for your project</p>
@@ -30,6 +31,7 @@ function App() {
           <h4>Karma</h4>
           <p>Regularly evaluates our talent to ensure quality</p>
           <img src={karma} alt=""></img>
+        </div>
         </div>
         <div className='card border-blue'>
           <h4>Calculator</h4>

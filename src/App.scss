@@ -86,3 +86,21 @@ img {
     align-self: flex-end;
     max-width: 20%;
 }
+
+@media (min-width: 50rem) {
+
+    main {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
+        // flex-shrink: 2;
+    }
+
+    .card {
+        // max-height: 15.625rem;
+        max-width: 21.875rem;
+    }
+
+}

@@ -111,4 +111,17 @@ img {
   padding-top: 2rem;
   align-self: flex-end;
   max-width: 20%;
+}
+
+@media (min-width: 50rem) {
+  main {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    max-width: 21.875rem;
+  }
 }/*# sourceMappingURL=App.css.map */
