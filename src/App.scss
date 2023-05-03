@@ -16,8 +16,8 @@ $fw-600: 600;
 /* 
 TODO:
      align h2 with h3 on header
-     fix color borders, bends on the edges
      figure out contrast on paragraphs
+     fix tablet layout, middle cards too tall
 */
 
 body {
@@ -67,18 +67,22 @@ p {
 
 .border-cyan {
     border-top: 0.2rem solid $primary-cyan;
+    // border-radius: 0.3rem;
 }
 
 .border-red {
     border-top: 0.2rem solid $primary-red;
+    // border-radius: 0.2rem;
 }
 
 .border-blue {
     border-top: 0.2rem solid $primary-blue;
+    // border-radius: 0.2rem;
 }
 
 .border-orange {
     border-top: 0.2rem solid $primary-orange;
+    // border-radius: 0.2rem;
 }
 
 img {

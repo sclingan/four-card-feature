@@ -44,8 +44,8 @@ p, h1, h2, h3, h4, h5, h6 {
 /* 
 TODO:
      align h2 with h3 on header
-     fix color borders, bends on the edges
      figure out contrast on paragraphs
+     fix tablet layout, middle cards too tall
 */
 body {
   font-family: "Poppins";
