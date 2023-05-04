@@ -13,11 +13,6 @@ $fw-200: 200;
 $fw-400: 400;
 $fw-600: 600;
 
-/* 
-TODO:
-     figure out contrast on paragraphs
-*/
-
 body {
     font-family: $ff;
     font-weight: $fw-200;
@@ -55,7 +50,7 @@ p {
     display: flex;
     flex-direction: column;
     border: 0.1rem solid transparent;
-    border-radius: 0.5rem;
+    border-radius: 0.3rem;
     margin-block: 1.5rem;
     padding-inline: 2rem;
     padding-block: 1rem;
@@ -65,22 +60,18 @@ p {
 
 .border-cyan {
     border-top: 0.2rem solid $primary-cyan;
-    // border-radius: 0.3rem;
 }
 
 .border-red {
     border-top: 0.2rem solid $primary-red;
-    // border-radius: 0.2rem;
 }
 
 .border-blue {
     border-top: 0.2rem solid $primary-blue;
-    // border-radius: 0.2rem;
 }
 
 .border-orange {
     border-top: 0.2rem solid $primary-orange;
-    // border-radius: 0.2rem;
 }
 
 img {
@@ -97,11 +88,9 @@ img {
         gap: 2rem;
         align-items: center;
         justify-content: center;
-        // flex-shrink: 2;
     }
 
     .card {
-        // max-height: 15.625rem;
         max-width: 21.875rem;
     }
 
