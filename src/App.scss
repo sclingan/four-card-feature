@@ -15,9 +15,7 @@ $fw-600: 600;
 
 /* 
 TODO:
-     align h2 with h3 on header
      figure out contrast on paragraphs
-     fix tablet layout, middle cards too tall
 */
 
 body {
@@ -91,7 +89,7 @@ img {
     max-width: 20%;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 56.25rem) {
 
     main {
         display: flex;
